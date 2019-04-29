@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SP_LOAISP>
+  <sp_loaisp id="1">
+    <tensp>Sữa tươi vinamilk</tensp>
+    <dongia>6500</dongia>
+    <donvitinh>VND</donvitinh>
+    <giamgia>10</giamgia>
+    <tenloai>Các sản phẩm sữa</tenloai>
+    <ncc>Vinamilk</ncc>
+  </sp_loaisp>
+  <sp_loaisp id="1">
+    <tensp>Táo đỏ</tensp>
+    <dongia>65000</dongia>
+    <donvitinh>VND</donvitinh>
+    <giamgia>12</giamgia>
+    <tenloai>Trái cây</tenloai>
+    <ncc>Công ty CP Thương Mại Sozo</ncc>
+  </sp_loaisp>
+  <sp_loaisp id="1">
+    <tensp>Táo đỏ</tensp>
+    <dongia>65000</dongia>
+    <donvitinh>VND</donvitinh>
+    <giamgia>12</giamgia>
+    <tenloai>Trái cây</tenloai>
+    <ncc>Công Ty TNHH Saigon Ve Wong</ncc>
+  </sp_loaisp>
+  <sp_loaisp id="1">
+    <tensp>Táo đỏ</tensp>
+    <dongia>65000</dongia>
+    <donvitinh>VND</donvitinh>
+    <giamgia>12</giamgia>
+    <tenloai>Trái cây</tenloai>
+    <ncc>Vinamilk</ncc>
+  </sp_loaisp>
+</SP_LOAISP>

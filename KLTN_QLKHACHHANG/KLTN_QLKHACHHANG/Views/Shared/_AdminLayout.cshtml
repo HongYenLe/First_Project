@@ -1,0 +1,91 @@
+﻿@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>*@
+
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Home v6</title>
+    @*<link rel='stylesheet' href='~/assets/css/bootstrap.min.css'>*@
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='~/assets/css/owl.carousel.min.css'>
+    <link rel='stylesheet' href='~/assets/css/animated.css'>
+    <link rel='stylesheet' href='~/assets/css/font-awesome.css'>
+    <link rel='stylesheet' href='~/assets/css/ui.css'>
+    <link rel='stylesheet' href='~/assets/css/jquery.mmenu.all.css'>
+    <link rel='stylesheet' href='~/assets/css/flaticon.css'>
+    <link rel='stylesheet' href='~/assets/css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i;Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+<body class="body-color-blue" data-main-color="#0b2076">
+    <header class="header header-style6">
+
+        
+        <div class="menu-primary">
+            <div class="container">
+
+                <a href="#primary-navigation" class="menu-button primary-navigation-button">
+                    <span class="flaticon-bars"></span>Main Menu
+                </a>
+          <nav id="primary-navigation" class="site-navigation main-menu">
+             <ul id="primary-menu" class="menu">
+                @*<li class="menu-item has-childrent item-home">
+                            @Html.ActionLink("Trang chủ", "Index", "Home")
+                </li>
+                <li>@Html.ActionLink("Quản lý khách hàng", "ManageCustomer", "Admin")</li>
+                <li>@Html.ActionLink("Quản lý sản phẩm", "ManageProduct", "Admin")</li>
+                <li>@Html.ActionLink("Quản lý loại sản phẩm", "ManageProductKind", "Admin")</li>
+                <li>@Html.ActionLink("Xem lịch sử giao dịch", "ViewHistory", "Admin")</li>
+                <li>@Html.ActionLink("Quản lý loại khách hàng", "LoaiKhachHang", "Admin")</li>*@
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+@RenderBody()
+<footer class="footer" style="color: #ffffff">
+    <div class="container">
+        <hr class="supermartket-hr">
+    </div>
+    
+    <div class="container">
+        <hr class="supermartket-hr">
+    </div>
+    <div class="container">    
+        <div class="footer-bottom">
+            <div class="copyright">
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+                Copyright 2019 <a href="#">Co.opMart Trà Vinh</a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="backtotop ts-block"><span class="pulser"> Top</span></a>
+</footer>
+<!--end footer-->
+<script type='text/javascript' src='~/assets/js/jquery.min.js'></script>
+@*<script type='text/javascript' src='~/assets/js/bootstrap.min.js'></script>*@
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type='text/javascript' src='~/assets/js/wow.min.js'></script>
+<script type='text/javascript' src='~/assets/js/owl.carousel.min.js'></script>
+<script type='text/javascript' src='~/assets/js/jquery.appear.min.js'></script>
+<script type='text/javascript' src='~/assets/js/jquery.countTo.js'></script>
+<script type='text/javascript' src='~/assets/js/ui.js'></script>
+<script type='text/javascript' src='~/assets/js/jquery.bxslider.min.js'></script>
+<script type='text/javascript' src='~/assets/js/jquery.mmenu.all.min.js'></script>
+<script type='text/javascript' src='~/assets/js/chosen.jquery.min.js'></script>
+<script type='text/javascript' src='~/assets/js/jquery.countdown.js'></script>
+<script type='text/javascript' src='~/assets/js/frontend.js'></script>
+</body>
+</html>

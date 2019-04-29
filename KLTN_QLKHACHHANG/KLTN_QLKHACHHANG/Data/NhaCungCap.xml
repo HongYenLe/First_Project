@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NHACUNGCAP>
+  <nhacungcap id="1">
+    <tenncc>Vinamilk</tenncc>
+    <dienthoai>0285415555</dienthoai>
+    <diachi>10 Tân Trào, Tân Phú, Quận 7, Hồ Chí Minh</diachi>
+  </nhacungcap>
+  <nhacungcap id="2">
+    <tenncc>NutiFood</tenncc>
+    <dienthoai>02838267999</dienthoai>
+    <diachi>281 - 283 Hoàng Diệu, Phường 6, Quận 4, Hồ Chí Minh</diachi>
+  </nhacungcap>
+  <nhacungcap id="3">
+    <tenncc>Acecook</tenncc>
+    <dienthoai>02838154064</dienthoai>
+    <diachi>Lô số II-3, Đường số 11, Nhóm CNII, Khu Công nghiệp Tân Bình, Phường Tây Thạnh, Quận Tân Phú, TP Hồ Chí Minh</diachi>
+  </nhacungcap>
+  <nhacungcap id="4">
+    <tenncc>Công ty CP Thương Mại Sozo</tenncc>
+    <dienthoai>0909041041</dienthoai>
+    <diachi>212A Bùi Văn Ba, P. Tân Thuận Đông, Q. 7, Tp. Hồ Chí Minh </diachi>
+  </nhacungcap>
+  <nhacungcap id="4">
+    <tenncc>Công Ty TNHH Saigon Ve Wong</tenncc>
+    <dienthoai>02837195550</dienthoai>
+    <diachi>212A Bùi Văn Ba, P. Tân Thuận Đông, Q. 7, Tp. Hồ Chí Minh </diachi>
+  </nhacungcap>
+</NHACUNGCAP>

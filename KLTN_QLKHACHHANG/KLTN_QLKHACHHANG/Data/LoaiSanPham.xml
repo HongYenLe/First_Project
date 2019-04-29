@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LOAISANPHAM>
+  <loaisp id="1">
+    <tenloai>Trái cây</tenloai>
+  </loaisp>
+  <loaisp id="2">
+    <tenloai>Đồ tươi sống</tenloai>
+  </loaisp>
+  <loaisp id="3">
+    <tenloai>Rau củ</tenloai>
+  </loaisp>
+  <loaisp id="4">
+    <tenloai>Đồ hộp</tenloai>
+  </loaisp>
+  <loaisp id="5">
+    <tenloai>Đồ nấu sẵn</tenloai>
+  </loaisp>
+  <loaisp id="6">
+    <tenloai>Các sản phẩm sữa</tenloai>
+  </loaisp>
+</LOAISANPHAM>

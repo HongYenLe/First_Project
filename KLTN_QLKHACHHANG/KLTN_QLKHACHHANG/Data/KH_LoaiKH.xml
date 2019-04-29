@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KH_LoaiKH>
+  <kh_loaikh>
+    <id>1</id>
+    <tenkh>Lê Thị Hồng Yến</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>01-03-1997</ngaysinh>
+    <cmnd>334905421</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0377054655</dienthoai>
+    <diemtichluy>7</diemtichluy>
+    <diemmuahang>0</diemmuahang>
+    <diemthuong>0</diemthuong>
+    <tenloai>Khách hàng VIP</tenloai>
+  </kh_loaikh>
+</KH_LoaiKH>

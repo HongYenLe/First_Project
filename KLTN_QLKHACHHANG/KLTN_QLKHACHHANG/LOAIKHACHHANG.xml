@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LOAIKHACHHANG>
+  <loaikh id="1">
+    <tenloai>VIP</tenloai>
+  </loaikh>
+  <loaikh id="2">
+    <tenloai>Khách hàng thành viên</tenloai>
+  </loaikh>
+  <loaikh id="3">
+    <tenloai>Khách hàng thân thiết</tenloai>
+  </loaikh>
+  <loaikh id="3">
+    <tenloai>Khách hàng thân thiết</tenloai>
+  </loaikh>
+  <loaikh id="4">
+    <tenloai>Khách hàng vãng lai</tenloai>
+  </loaikh>
+</LOAIKHACHHANG>

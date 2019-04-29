@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "LoaiKhachHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="shop-table-content container">
+    <form method="post" action="ThemLoaiKH" class="shoping-form">
+        <div class="div-table-cart">
+            <table class="shop_table cart">
+                <thead>
+                    <tr>
+                        <th class="product-thumbnail">Mã loại</th>
+                        <th class="product-thumbnail">Tên loại</th>
+                        <th class="product-edit">Sửa</th>
+                        <th class="product-remove">Xóa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (KLTN_QLKHACHHANG.Models.LOAI_KHACH_HANG loaiKH in Model)
+                    {
+                        <tr class="cart_item">
+                            <td class="product-thumbnail" data-title="">
+                                @loaiKH.maloai
+                            </td>
+                            <td class="product-thumbnail" data-title="">
+                                @loaiKH.tenloai
+                            </td>
+                            <td class="edit"></td>
+                            <td class="product-remove" data-title="Remove">
+                                <a title="Remove this item" class="remove" href="@Url.Action("Delete","Admin",new { id=loaiKH.maloai})">×</a>
+                            </td>
+                        </tr>
+                    }
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="product-name" data-title="Product Name">
+                            @*<input style="width:250px" name="id" />*@
+                        </td>
+                        <td class="edit"><input name="tenloai" style="width:250px" /></td>
+                        <td class="edit"></td>
+                        <td class="product-remove" data-title="Remove"></td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div> 
+            <div class="button-cart">
+                <button class="button button-check-out" type="submit">Thêm sản phẩm</button>
+            </div>
+        </form>
+    </div>

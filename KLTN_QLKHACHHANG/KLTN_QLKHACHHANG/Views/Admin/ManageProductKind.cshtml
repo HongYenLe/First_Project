@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "ManageProductKind";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Model
+<div class="main-content container">
+    <h4 class="title-page">Quản lý loại sản phẩm</h4>
+    <div class="header-search">
+        <form action="form.php" class="form form-search-header">
+            <input type="text" placeholder="Tìm kiếm ở đây...">
+            <select name="show-categories" id="show-categories">
+                <option value="all">Tìm kiếm theo...</option>
+                <option value="Automovie & Motorcyle">Mã loại sản phẩm</option>
+                <option value="Electronics">Tên loại sản phẩm</option>
+            </select>
+            <button class="button-search"><i class="flaticon-search"></i></button>
+        </form>
+    </div>
+    <div class="shop-table-content container">
+        <form method="post" action="#" class="shoping-form">
+            <div class="div-table-cart">
+                <table class="shop_table cart">
+                    <thead>
+                        <tr>
+                            <th class="product-thumbnail">Mã loại sản phẩm</th>
+                            <th class="product-name">Tên loại sản phẩm</th>
+                            <th class="product-edit">Sửa</th>
+                            <th class="product-remove">Xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (KLTN_QLKHACHHANG.Models.LOAI_SAN_PHAM loaiSP in Model)
+                        {
+                            <tr class="cart_item">
+                                <td class="product-thumbnail" data-title="">
+                                    @loaiSP.maloai
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @loaiSP.tenloai
+                                </td>
+                                <td class="edit"><a href="#">Edit</a></td>
+
+                                <td class="product-remove" data-title="Remove">
+                                    <a title="Remove this item" class="remove" href="#">×</a>
+                                </td>
+                            </tr>
+                        }
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="product-name" data-title="Product Name">
+                                <input style="width:250px" />
+                            </td>
+                            <td class="edit"><input style="width:250px" /></td>
+                            <td class="edit"></td>
+                            <td class="product-remove" data-title="Remove"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="button-cart">
+                    <a class="button button-check-out" href="#">Thêm loại sản phẩm</a>
+                    
+                </div>
+            </div>
+
+        </form>
+
+
+

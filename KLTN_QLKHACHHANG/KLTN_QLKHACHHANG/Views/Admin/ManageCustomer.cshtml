@@ -1,0 +1,207 @@
+﻿
+@{
+    ViewBag.Title = "ManageCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content" >
+    <div style="padding-left:50px">
+        <h4 class="title-page">Quản lý thông tin khách hàng</h4>
+        @*<div class="header-search">
+            <form action="form.php" class="form form-search-header">
+                <input type="text" placeholder="Tìm kiếm ở đây...">
+                <select name="show-categories" id="show-categories">
+                    <option value="all">Tìm kiếm theo...</option>
+                    <option value="Automovie & Motorcyle">Mã khách hàng</option>
+                    <option value="Electronics">Tên khách hàng</option>
+                    <option value="Sport & Outdoors">Chứng minh nhân dân</option>
+                    
+                </select>
+                <button class="button-search"><i class="flaticon-search"></i></button>
+            </form>
+        </div>*@
+    </div>
+    <!-- Modal edit-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Cập nhật thông tin cá nhân</h4>
+                </div>
+                <form action="~/Admin/Edit">
+                    <div class="modal-body">
+                        <input name="id" hidden />
+                        <div class="form-group">
+                            <label>Tên khách hàng:</label>
+                            <input type="text" class="form-control" name="tenkh" />
+                        </div>
+                        <div class="form-group">
+                            <label>Giới tính:</label>
+                            <input type="text" class="form-control" name="gioitinh" />
+                        </div>
+                        <div class="form-group">
+                            <label>Ngày sinh:</label>
+                            <input type="text" class="form-control" name="ngaysinh" />
+                        </div>
+                        <div class="form-group">
+                            <label>Chứng minh nhân dân:</label>
+                            <input type="text" class="form-control" name="cmnd" />
+                        </div>
+                        <div class="form-group">
+                            <label>Địa chỉ:</label>
+                            <input type="text" class="form-control" name="diachi" />
+                        </div>
+                        <div class="form-group">
+                            <label>Điện thoại:</label>
+                            <input type="text" class="form-control" name="dienthoai" />
+                        </div>
+                        @*<div class="form-group">
+                            <label>Tên đăng nhập:</label>
+                            <input type="text" class="form-control" name="tendn" />
+                        </div>
+                        <div class="form-group">
+                            <label>Mật khẩu:</label>
+                            <input type="text" class="form-control" name="matkhau" />
+                        </div>*@
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Lưu</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!--/End modal-->
+    <div class="shop-table-content" style="padding-left:10px">
+        <form method="post" name="kh" action="ThemKhachHang" class="shoping-form"> 
+            <div class="div-table-cart">
+                <table class="shop_table cart">
+                    <thead>
+                        <tr>
+                            <th class="product-name">Mã KH</th>
+                            <th class="product-name">Tên KH</th>
+                            <th class="product-name">Giới tính</th>
+                            <th class="product-name">Ngày sinh</th>
+                            <th class="product-name">Số CMND</th>
+                            <th class="product-name">Địa chỉ</th>
+                            <th class="product-name">Số ĐT</th>
+                            <th class="product-name">Điểm mua hàng</th>
+                            <th class="product-name">Điểm còn lại</th>
+                            <th class="product-name">Điểm thưởng</th>
+                            <th class="product-name">Điểm năm trước</th>
+                            <th class="product-name">Đối tượng KH</th>
+                            <th class="product-edit">Sửa</th>
+                            @*<th class="product-remove">Xóa</th>*@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(KLTN_QLKHACHHANG.Models.KHACH_HANG KH in Model)
+                        {
+                            <tr class="cart_item">
+                                <td class="product-remove" data-title="">
+                                    @KH.id
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.tenkh
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.gioitinh
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.ngaysinh
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.cmnd
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.diachi
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.dienthoai
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.diemtichluy
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.diemconlai
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.diemthuong
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.diemnamtruoc
+                                </td>
+                                <td class="product-name" data-title="">
+                                    @KH.tenloai
+                                </td>
+                                
+                                <td class="edit">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" onclick="Edit('@KH.id','@KH.tenkh','@KH.gioitinh','@KH.ngaysinh','@KH.cmnd','@KH.diachi','@KH.dienthoai')">Sửa</button>
+                                   
+                                </td>
+                                @*<td class="product-remove" data-title="Remove">
+                                    <a title="Remove this item" class="remove" href="@Url.Action("XoaKH","Admin",new { id=KH.id})">×</a>
+                                </td>*@
+                            </tr>
+                        }
+                        
+                        
+                    </tbody>
+                    @*<tfoot>
+                        <tr>
+                            <td class="product-name" data-title="Product Name"></td>
+                            <td class="edit"><input style="width:130px" /></td>
+                            <td class="product-name" data-title="Unit Price">
+                                <input type="text" name="hong" form="kh" style="width:40px" />
+                            </td>
+                            <td class="product-name" data-title="Qty">
+                                <input type="text" style ="width:95px" />
+                            </td>
+                            <td class="product-name" data-title="Subtotal">
+                                <input type="text" style="width:75px" />
+                            </td>
+                            <td class="product-name" data-title="Remove">
+                                <input type="text" style="width:60px" />
+                            </td>
+                            <td class="product-name" data-title="Remove">
+                                <input type="text" style="width:70px" />
+                            </td>
+                            <td class="edit"><input type="number" style="width:75px" /></td>
+                            <td class="product-remove" data-title="Remove">
+                                <input type="number" style="width:75px" />
+                            </td>
+                            <td class="product-name" data-title="Remove">
+                                <input type="number" style="width:75px" />
+                            </td>
+                            <td class="product-name" data-title="Remove">
+                                <input type="text" style="width:75px" />
+                            </td>
+                            <td class="edit"></td>
+                            <td class="edit"></td>
+                        </tr>
+                    </tfoot>*@
+                </table>
+                
+            </div>
+
+        </form>
+</div>
+
+<script>
+    function Edit(id,tenkh,gioitinh,ngaysinh,cmnd,diachi,dienthoai) {
+        $('input[name=id]').val(id);
+        $('input[name=tenkh]').val(tenkh);
+        $('input[name=gioitinh]').val(gioitinh);
+        $('input[name=ngaysinh]').val(ngaysinh);
+        $('input[name=cmnd]').val(cmnd);
+        $('input[name=diachi]').val(diachi);
+        $('input[name=dienthoai]').val(dienthoai);
+        
+        
+    }
+</script>

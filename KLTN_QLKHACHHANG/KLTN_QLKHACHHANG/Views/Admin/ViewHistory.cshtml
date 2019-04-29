@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "ViewHistory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content container">
+    <h4 class="title-page">Xem lịch sử</h4>
+    @*<div class="header-search">
+        <form action="form.php" class="form form-search-header">
+            <input type="text" placeholder="Tìm kiếm ở đây...">
+            <select name="show-categories" id="show-categories">
+                <option value="all">Tìm kiếm theo...</option>
+                <option value="Automovie & Motorcyle">Mã lịch sử</option>
+                <option value="Electronics">Mã đơn đặt hàng</option>
+                <option value="Sport & Outdoors">Tên khách hàng</option>
+            </select>
+            <button class="button-search"><i class="flaticon-search"></i></button>
+        </form>
+    </div>*@
+
+  
+
+
+    <div class="shop-table-content container">
+        <form method="post" action="ViewHistory" class="shoping-form">
+            <div class="div-table-cart">
+                <table class="shop_table cart">
+                    <thead>
+                        <tr>
+
+                            <th class="product-name">Mã lịch sử</th>
+                            <th class="product-name">Mã hóa đơn</th>
+                            <th class="product-name">Mã khách hàng</th>
+                            <th class="product-name">Mã nhân viên</th>
+                            <th class="product-name">Tổng tiền mua</th>
+                            <th class="product-name">Ngày mua</th>
+
+                            <th class="product-edit">Ghi chú</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (KLTN_QLKHACHHANG.Models.LICHSU ls in Model)
+                        {
+                            <tr class="cart_item">
+                                <td class="product-name" data-title="Product Name">
+                                    @ls.id
+
+                                </td>
+                                <td class="edit">
+                                    <a href="#" data-toggle="modal" data-target="#modal_@ls.idhoadon">@ls.idhoadon</a>
+                                  
+
+                                    <!-- Modal edit-->
+                                        <div id="modal_@ls.idhoadon" class="modal fade" role="dialog">
+                                            <div class="modal-dialog">
+                                                <!-- Modal content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Chi tiết hóa đơn</h4>
+                                                    </div>
+                                                    <div class="div-table-cart">
+                                                        <table class="shop_table cart">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="product-name">Mã chi tiết</th>
+                                                                    <th class="product-name">Tên sản phẩm</th>
+                                                                    <th class="product-name">Đơn giá</th>
+                                                                    <th class="product-name">Số lượng mua</th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                              @{ 
+                                                                  foreach (var item in ls.listchitiet)
+                                                                  {
+                                                                      <tr>
+                                                                          <td>
+                                                                              @item.id
+                                                                          </td>
+                                                                          <td>
+                                                                              @item.tensp
+                                                                          </td>
+
+                                                                          <td>
+                                                                              @item.dongia
+                                                                          </td>
+
+                                                                          <td>
+                                                                              @item.soluongmua
+                                                                          </td>
+
+
+                                                                      </tr>
+                                                                  }
+                                                              }
+                                                            </tbody>
+
+                                                        </table>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--/End modal-->
+                                </td>
+                                <td class="product-name" data-title="Unit Price">
+                                    @ls.idkh
+                                </td>
+                                <td class="product-name" data-title="Qty">
+                                    @ls.idnv
+                                </td>
+                                <td class="product-name" data-title="Subtotal">
+                                    @ls.tongtien
+                                </td>
+                                <td class="product-name" data-title="Remove">
+                                    @ls.ngaymua
+                                </td>
+
+                                <td class="edit"><a href="#"></a></td>
+
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+@*<script>
+        function ChiTietLichSu(id,tensp,dongia,soluongmua) {
+            $('a[name=id]').val(id);
+            $('a[name=tensp]').val(tensp);
+            $('a[name=dongia]').val(dongia);
+            $('a[name=soluongmua]').val(soluongmua);
+        }
+    </script>*@

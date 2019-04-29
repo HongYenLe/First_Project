@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Qua_tang>
+  <quatang id="1" idkh="1">
+    <tenngayle>Sinh nhật</tenngayle>
+    <noidung>Gấp đôi số điểm của đơn hàng trong tháng sinh nhật</noidung>
+    <trangthai>0</trangthai>
+  </quatang>
+</Qua_tang>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nhan_vien>
+  <nhanvien id ="1" idquyen="1">
+    <hotennv>Lê Thanh Phương</hotennv>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>01-01-1997</ngaysinh>
+    <cmnd>334905436</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0357005006</dienthoai>
+  </nhanvien>
+</Nhan_vien>

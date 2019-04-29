@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HOADON>
+  <hoadon id="1" idkh="1">
+    <tongtienmua>100000</tongtienmua>
+    <ngaymua>01-03-2019</ngaymua>
+    <trangthai>1</trangthai>
+    <!--1: đã thanh toán-->
+  </hoadon>
+</HOADON>

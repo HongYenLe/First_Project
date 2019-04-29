@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SANPHAM>
+  <sanpham id ="1" idloai="6" idncc="1">
+    <tensp>Sữa tươi vinamilk</tensp>
+    <dongia>6500</dongia>
+    <donvitinh>VND</donvitinh>
+    <giamgia>10</giamgia>
+  </sanpham>
+</SANPHAM>

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "DoiMatKhau";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content container">
+    <div>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Đổi mật khẩu</button>
+        
+    </div>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Đăng nhập</h4>
+            </div>
+            <form action="~/Admin/DMK">
+                <div class="modal-body">
+                    <input name="id" hidden />
+                    <div class="form-group">
+                        <label>Mật khẩu cũ:</label>
+                        <input type="text" class="form-control" name="mkcu" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mật khẩu mới:</label>
+                        <input type="text" class="form-control" name="mkmoi" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#myModal">Đổi</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                    </div>
+                    </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+

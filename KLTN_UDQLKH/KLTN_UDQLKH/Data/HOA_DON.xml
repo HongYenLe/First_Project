@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HOADON>
+  <hoadon id="1" idkh="100000" idnv="10000">
+    <tienkhachtra>1000000</tienkhachtra>
+    <tiengiam>0</tiengiam>
+    <tongtienmua>0</tongtienmua>
+    <ngaymua>01-3-2019,10:26:39</ngaymua>
+    <trangthai>1</trangthai>
+    <trangthaiTT>0</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="2" idkh="100002" idnv="10000">
+    <tongtienmua>11517000</tongtienmua>
+    <ngaymua>15-04-2019,11:43:15</ngaymua>
+    <tienkhachtra>20000000</tienkhachtra>
+    <tiengiam>613000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="3" idkh="100002" idnv="10000">
+    <tongtienmua>3800000</tongtienmua>
+    <ngaymua>15-04-2019,02:09:27</ngaymua>
+    <tienkhachtra>10000000</tienkhachtra>
+    <tiengiam>200000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="4" idkh="100002" idnv="10000">
+    <tongtienmua>775000</tongtienmua>
+    <ngaymua>15-04-2019,02:44:04</ngaymua>
+    <tienkhachtra>1000000</tienkhachtra>
+    <tiengiam>75000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="5" idkh="100002" idnv="10000">
+    <tongtienmua>58500</tongtienmua>
+    <ngaymua>13-04-2019,02:45:41</ngaymua>
+    <tienkhachtra>100000</tienkhachtra>
+    <tiengiam>6500</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="6" idkh="100000" idnv="10000">
+    <tongtienmua>2322000</tongtienmua>
+    <ngaymua>15-04-2019,10:18:33</ngaymua>
+    <tienkhachtra>3000000</tienkhachtra>
+    <tiengiam>258000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="7" idkh="100000" idnv="10000">
+    <tongtienmua>0</tongtienmua>
+    <ngaymua>16-04-2019,08:39:08</ngaymua>
+    <tienkhachtra>0</tienkhachtra>
+    <tiengiam>0</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>0</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="8" idkh="100000" idnv="10000">
+    <tongtienmua>5834250</tongtienmua>
+    <ngaymua>16-04-2019,08:40:12</ngaymua>
+    <tienkhachtra>10000000</tienkhachtra>
+    <tiengiam>648250</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+  </hoadon>
+  <hoadon id="9" idkh="100000" idnv="10000">
+    <tongtienmua>0</tongtienmua>
+    <ngaymua>17-04-2019,02:57:09</ngaymua>
+    <tienkhachtra>0</tienkhachtra>
+    <tiengiam>0</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>0</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="10" idkh="100000" idnv="10000">
+    <tongtienmua>1976050</tongtienmua>
+    <ngaymua>17-04-2019,08:21:45</ngaymua>
+    <tienkhachtra>2000000</tienkhachtra>
+    <tiengiam>108450</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>0</trangthaiTT>
+    <sudungPMH>220000</sudungPMH>
+  </hoadon>
+  <hoadon id="11" idkh="10003" idnv="10000">
+    <tongtienmua>11610000</tongtienmua>
+    <ngaymua>18-04-2019,08:40:35</ngaymua>
+    <tienkhachtra>20000000</tienkhachtra>
+    <tiengiam>1290000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="12" idkh="10003" idnv="10000">
+    <tongtienmua>175500</tongtienmua>
+    <ngaymua>18-04-2019,08:51:30</ngaymua>
+    <tienkhachtra>16000</tienkhachtra>
+    <tiengiam>19500</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>160000</sudungPMH>
+  </hoadon>
+  <hoadon id="13" idkh="10004" idnv="10000">
+    <tongtienmua>2512000</tongtienmua>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+    <tienkhachtra>20000000</tienkhachtra>
+    <tiengiam>268000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>20000</sudungPMH>
+  </hoadon>
+  <hoadon id="14" idkh="10004" idnv="10000">
+    <tongtienmua>365500</tongtienmua>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+    <tienkhachtra>10000</tienkhachtra>
+    <tiengiam>29500</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>60000</sudungPMH>
+  </hoadon>
+  <hoadon id="15" idkh="100006" idnv="10000">
+    <tongtienmua>11610000</tongtienmua>
+    <ngaymua>23-04-2019,02:09:46</ngaymua>
+    <tienkhachtra>12000000</tienkhachtra>
+    <tiengiam>1290000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="16" idkh="100006" idnv="10000">
+    <tongtienmua>380000</tongtienmua>
+    <ngaymua>23-04-2019,02:17:14</ngaymua>
+    <tienkhachtra>200000</tienkhachtra>
+    <tiengiam>20000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>200000</sudungPMH>
+  </hoadon>
+  <hoadon id="17" idkh="100001" idnv="10000">
+    <tongtienmua>2333700</tongtienmua>
+    <ngaymua>24-04-2019,11:09:26</ngaymua>
+    <tienkhachtra>20000000</tienkhachtra>
+    <tiengiam>259300</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="18" idkh="10003" idnv="10000">
+    <tongtienmua>117000</tongtienmua>
+    <ngaymua>25-04-2019,08:51:58</ngaymua>
+    <tienkhachtra>20000</tienkhachtra>
+    <tiengiam>13000</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>100000</sudungPMH>
+  </hoadon>
+  <hoadon id="19" idkh="10003" idnv="10000">
+    <tongtienmua>181350</tongtienmua>
+    <ngaymua>25-04-2019,08:56:32</ngaymua>
+    <tienkhachtra>100000</tienkhachtra>
+    <tiengiam>20150</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>100000</sudungPMH>
+  </hoadon>
+  <hoadon id="20" idkh="10003" idnv="10000">
+    <tongtienmua>5834250</tongtienmua>
+    <ngaymua>25-04-2019,09:02:56</ngaymua>
+    <tienkhachtra>6000000</tienkhachtra>
+    <tiengiam>648250</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>1</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+  <hoadon id="21" idkh="10003" idnv="10000">
+    <tongtienmua>0</tongtienmua>
+    <ngaymua>27-04-2019,03:34:03</ngaymua>
+    <tienkhachtra>0</tienkhachtra>
+    <tiengiam>0</tiengiam>
+    <trangthai>1</trangthai>
+    <trangthaiTT>0</trangthaiTT>
+    <sudungPMH>0</sudungPMH>
+  </hoadon>
+</HOADON>

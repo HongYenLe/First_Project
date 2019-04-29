@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LOAISANPHAM>
+  <loaisp id="1">
+    <tenloai>Bánh kẹo</tenloai>
+    
+  </loaisp>
+  <loaisp id="2">
+    <tenloai>Bột giặt - Nước xả vải</tenloai>
+    
+  </loaisp>
+  <loaisp id="3">
+    <tenloai>Các sản phẩm sữa</tenloai>
+    
+  </loaisp>
+  <loaisp id="4">
+    <tenloai>Đồ hộp</tenloai>
+  </loaisp>
+  <loaisp id="5">
+    <tenloai>Đồ nấu sẵn</tenloai>
+  </loaisp>
+  <loaisp id="6">
+    <tenloai>Đồ tươi sống</tenloai>
+  </loaisp>
+  <loaisp id="7">
+    <tenloai>Gia dụng</tenloai>
+  </loaisp>
+  <loaisp id="8">
+    <tenloai>Nước giải khát</tenloai>
+    
+  </loaisp>
+  <loaisp id="9">
+    <tenloai>Rau củ</tenloai>
+    
+  </loaisp>
+  <loaisp id="10">
+    <tenloai>Thời trang nam</tenloai>
+  </loaisp>
+  <loaisp id="11">
+    <tenloai>Thời trang nữ</tenloai>
+  </loaisp>
+  <loaisp id="12">
+    <tenloai>Trái cây</tenloai>
+  </loaisp>
+</LOAISANPHAM>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Join>
+    <id>1</id>
+    <tensp>Sữa tươi vinamilk</tensp>
+    <dongia>6500</dongia>
+    <donvitinh>hộp</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>910</soluong>
+    <tenloai>Đồ tươi sống</tenloai>
+    <ncc>Vinamilk</ncc>
+  </Join>
+  <Join>
+    <id>2</id>
+    <tensp>Táo đỏ</tensp>
+    <dongia>65000</dongia>
+    <donvitinh>kg</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>955</soluong>
+    <tenloai>Bánh kẹo</tenloai>
+    <ncc>Công ty CP Thương Mại Sozo</ncc>
+  </Join>
+  <Join>
+    <id>3</id>
+    <tensp>Nho ngón tay</tensp>
+    <dongia>200000</dongia>
+    <donvitinh>kg</donvitinh>
+    <giamgia>5</giamgia>
+    <soluong>904</soluong>
+    <tenloai>Bánh kẹo</tenloai>
+    <ncc>Công ty CP Thương Mại Sozo</ncc>
+  </Join>
+  <Join>
+    <id>4</id>
+    <tensp>Bột giặt Ariel Doeeny đam mê/ khử mùi 5kg</tensp>
+    <dongia>238000</dongia>
+    <donvitinh>Túi</donvitinh>
+    <giamgia>5</giamgia>
+    <soluong>999</soluong>
+    <tenloai>Bột giặt - Nước xả vải</tenloai>
+    <ncc>Acecook</ncc>
+  </Join>
+  <Join>
+    <id>5</id>
+    <tensp>Nồi cơm điện tử Sharp KS-COM180EVGY 1.8L</tensp>
+    <dongia>1290000</dongia>
+    <donvitinh>cái</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>984</soluong>
+    <tenloai>Gia dụng</tenloai>
+    <ncc>Acecook</ncc>
+  </Join>
+</Root>

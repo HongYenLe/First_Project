@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Join>
+    <id>100000</id>
+    <tenkh>Lê Thị Hồng Yến</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>01-03-1997</ngaysinh>
+    <cmnd>334905421</cmnd>
+    <diachi>Càng Long, Trà Vinh</diachi>
+    <dienthoai>0377054655</dienthoai>
+    <diemtichluy>198</diemtichluy>
+    <diemconlai>98</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng kim cương</tenloai>
+  </Join>
+  <Join>
+    <id>100001</id>
+    <tenkh>Kim Xuân Hồng</tenkh>
+    <gioitinh>Nam</gioitinh>
+    <ngaysinh>18-04-1997</ngaysinh>
+    <cmnd>334905521</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0377088023</dienthoai>
+    <diemtichluy>8</diemtichluy>
+    <diemconlai>8</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>10</diemnamtruoc>
+    <tenloai>Khách hàng VIP</tenloai>
+  </Join>
+  <Join>
+    <id>100002</id>
+    <tenkh>Lê Phạm Ngọc Trâm</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>18-04-1997</ngaysinh>
+    <cmnd>334900145</cmnd>
+    <diachi>Tiểu Cần Trà Vinh</diachi>
+    <dienthoai>012355445</dienthoai>
+    <diemtichluy>613</diemtichluy>
+    <diemconlai>82</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng thành viên</tenloai>
+  </Join>
+  <Join>
+    <id>10003</id>
+    <tenkh>Phạm Thị Trúc Mai</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>18-04-1987</ngaysinh>
+    <cmnd>334432573</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0936010206</dienthoai>
+    <diemtichluy>1926</diemtichluy>
+    <diemconlai>626</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng thành viên</tenloai>
+  </Join>
+  <Join>
+    <id>10004</id>
+    <tenkh>Hà Mỹ Trân</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>10-10-1997</ngaysinh>
+    <cmnd>334905678</cmnd>
+    <diachi>Duyên Hải, Trà Vinh</diachi>
+    <dienthoai>0962095638</dienthoai>
+    <diemtichluy>618</diemtichluy>
+    <diemconlai>18</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng thành viên</tenloai>
+  </Join>
+  <Join>
+    <id>100005</id>
+    <tenkh>Lê Phạm Ngọc Trâm</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>14-11-1997</ngaysinh>
+    <cmnd>334906422</cmnd>
+    <diachi>Tiểu Cần, Trà Vinh</diachi>
+    <dienthoai>0393831123</dienthoai>
+    <diemtichluy>154</diemtichluy>
+    <diemconlai>154</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng thành viên</tenloai>
+  </Join>
+  <Join>
+    <id>100006</id>
+    <tenkh>Đặng Văn Thức</tenkh>
+    <gioitinh>Nam</gioitinh>
+    <ngaysinh>25-04-1997</ngaysinh>
+    <cmnd>33490833</cmnd>
+    <diachi>Vĩnh Long</diachi>
+    <dienthoai>0378675582</dienthoai>
+    <diemtichluy>179</diemtichluy>
+    <diemconlai>179</diemconlai>
+    <diemthuong>0</diemthuong>
+    <diemnamtruoc>0</diemnamtruoc>
+    <tenloai>Khách hàng thành viên</tenloai>
+  </Join>
+</Root>

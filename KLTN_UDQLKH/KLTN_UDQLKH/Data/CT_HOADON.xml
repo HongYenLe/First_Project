@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CHI_TIET>
+  <chitiet id="2" idhoadon="2" idsp="1">
+    <soluongmua>20</soluongmua>
+  </chitiet>
+  <chitiet id="3" idhoadon="2" idsp="3">
+    <soluongmua>20</soluongmua>
+  </chitiet>
+  <chitiet id="4" idhoadon="2" idsp="3">
+    <soluongmua>20</soluongmua>
+  </chitiet>
+  <chitiet id="5" idhoadon="2" idsp="3">
+    <soluongmua>20</soluongmua>
+  </chitiet>
+  <chitiet id="6" idhoadon="3" idsp="3">
+    <soluongmua>20</soluongmua>
+  </chitiet>
+  <chitiet id="7" idhoadon="4" idsp="3">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="8" idhoadon="4" idsp="2">
+    <soluongmua>10</soluongmua>
+  </chitiet>
+  <chitiet id="9" idhoadon="5" idsp="1">
+    <soluongmua>10</soluongmua>
+  </chitiet>
+  <chitiet id="10" idhoadon="6" idsp="5">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="11" idhoadon="8" idsp="1">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="12" idhoadon="8" idsp="5">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="13" idhoadon="8" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="14" idhoadon="8" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="15" idhoadon="8" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="15" idhoadon="1" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="17" idhoadon="1" idsp="1">
+    <soluongmua>4</soluongmua>
+  </chitiet>
+  <chitiet id="17" idhoadon="1" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="18" idhoadon="7" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="20" idhoadon="7" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="20" idhoadon="7" idsp="1">
+    <soluongmua>4</soluongmua>
+  </chitiet>
+  <chitiet id="22" idhoadon="9" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="23" idhoadon="9" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="23" idhoadon="9" idsp="1">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="26" idhoadon="10" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="27" idhoadon="10" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="28" idhoadon="10" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="28" idhoadon="10" idsp="1">
+    <soluongmua>10</soluongmua>
+  </chitiet>
+  <chitiet id="29" idhoadon="10" idsp="3">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="30" idhoadon="11" idsp="5">
+    <soluongmua>3</soluongmua>
+  </chitiet>
+  <chitiet id="31" idhoadon="12" idsp="2">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="32" idhoadon="12" idsp="2">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="33" idhoadon="10" idsp="3">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="33" idhoadon="10" idsp="3">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="34" idhoadon="12" idsp="2">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="35" idhoadon="13" idsp="5">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="36" idhoadon="13" idsp="3">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="37" idhoadon="15" idsp="5">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="38" idhoadon="15" idsp="5">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="39" idhoadon="16" idsp="3">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="40" idhoadon="17" idsp="5">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="41" idhoadon="17" idsp="1">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="42" idhoadon="18" idsp="2">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="43" idhoadon="19" idsp="2">
+    <soluongmua>2</soluongmua>
+  </chitiet>
+  <chitiet id="45" idhoadon="19" idsp="2">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="45" idhoadon="19" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="46" idhoadon="20" idsp="1">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="47" idhoadon="20" idsp="5">
+    <soluongmua>5</soluongmua>
+  </chitiet>
+  <chitiet id="48" idhoadon="21" idsp="4">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="49" idhoadon="21" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="50" idhoadon="21" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+  <chitiet id="51" idhoadon="21" idsp="1">
+    <soluongmua>1</soluongmua>
+  </chitiet>
+</CHI_TIET>

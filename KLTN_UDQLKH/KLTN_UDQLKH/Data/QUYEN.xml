@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QUYEN>
+  <quyen id="1">
+    <tenquyen>Người quản trị</tenquyen>
+  </quyen>
+  <quyen id="2">
+    <tenquyen>Người dùng</tenquyen>
+  </quyen>
+</QUYEN>

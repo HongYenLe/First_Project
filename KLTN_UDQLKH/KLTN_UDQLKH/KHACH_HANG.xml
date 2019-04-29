@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<KHACHHANG>
+  <khachhang id="1" idquyen="1">
+    <tenkh>Lê Thị Hồng Yến</tenkh>
+    <gioitinh>Nữ</gioitinh>
+    <ngaysinh>01-03-1997</ngaysinh>
+    <cmnd>334905421</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0377054655</dienthoai>
+    <diemtichluy>10</diemtichluy>
+    <diemmuahang>0</diemmuahang>
+    <diemthuong>0</diemthuong>
+    <tendn>hongyen</tendn>
+    <matkhau>0012345</matkhau>
+  </khachhang>
+  <khachhang id="2" idquyen="2" loaikh="2">
+    <tenkh>Kim Xuân Hồng</tenkh>
+    <gioitinh>Nam</gioitinh>
+    <ngaysinh>01-02-1997</ngaysinh>
+    <cmnd>334905521</cmnd>
+    <diachi>Trà Vinh</diachi>
+    <dienthoai>0377088023</dienthoai>
+    <diemtichluy>0</diemtichluy>
+    <diemmuahang>0</diemmuahang>
+    <diemthuong>0</diemthuong>
+    <tendn>xuanhong</tendn>
+    <matkhau>pinky1997</matkhau>
+  </khachhang>
+</KHACHHANG>

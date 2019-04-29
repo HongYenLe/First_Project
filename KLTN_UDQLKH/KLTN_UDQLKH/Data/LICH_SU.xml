@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LICHSU>
+  <lichsu id="2">
+    <idhoadon>1</idhoadon>
+    <idkh>100000</idkh>
+    <idnv>1</idnv>
+    <tongtien>117000</tongtien>
+    <tiengiam>13000</tiengiam>
+    <tienkhachtra>1000000</tienkhachtra>
+    <ngaymua>01-3-2017,10:26:39</ngaymua>
+  </lichsu>
+  <lichsu id="2">
+    <idhoadon>4</idhoadon>
+    <idkh>100002</idkh>
+    <idnv>10000</idnv>
+    <tongtien>3800000</tongtien>
+    <tiengiam>200000</tiengiam>
+    <tienkhachtra>10000000</tienkhachtra>
+    <ngaymua>13-04-2019,02:09:27</ngaymua>
+  </lichsu>
+  <lichsu id="3">
+    <idhoadon>4</idhoadon>
+    <idkh>100002</idkh>
+    <idnv>10000</idnv>
+    <tongtien>3800000</tongtien>
+    <tiengiam>200000</tiengiam>
+    <tienkhachtra>10000000</tienkhachtra>
+    <ngaymua>13-04-2019,02:09:27</ngaymua>
+  </lichsu>
+  <lichsu id="4">
+    <idhoadon>5</idhoadon>
+    <idkh>100002</idkh>
+    <idnv>10000</idnv>
+    <tongtien>58500</tongtien>
+    <tiengiam>6500</tiengiam>
+    <tienkhachtra>100000</tienkhachtra>
+    <ngaymua>13-04-2019,02:45:41</ngaymua>
+  </lichsu>
+  <lichsu id="5">
+    <idhoadon>10</idhoadon>
+    <idkh>100000</idkh>
+    <idnv>10000</idnv>
+    <tongtien>1976050</tongtien>
+    <tiengiam>108450</tiengiam>
+    <tienkhachtra>2000000</tienkhachtra>
+    <ngaymua>17-04-2019,08:21:45</ngaymua>
+  </lichsu>
+  <lichsu id="8">
+    <idhoadon>13</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+  </lichsu>
+  <lichsu id="9">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="10">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="11">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="12">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="13">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="14">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="15">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="16">
+    <idhoadon>14</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:42:39</ngaymua>
+  </lichsu>
+  <lichsu id="17">
+    <idhoadon>17</idhoadon>
+    <idkh>10003</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>21-04-2019,06:15:03</ngaymua>
+  </lichsu>
+  <lichsu id="18">
+    <idhoadon>13</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+  </lichsu>
+  <lichsu id="19">
+    <idhoadon>13</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+  </lichsu>
+  <lichsu id="20">
+    <idhoadon>13</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+  </lichsu>
+  <lichsu id="21">
+    <idhoadon>13</idhoadon>
+    <idkh>10004</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>18-04-2019,10:40:51</ngaymua>
+  </lichsu>
+  <lichsu id="20">
+    <idhoadon>21</idhoadon>
+    <idkh>10003</idkh>
+    <idnv>10000</idnv>
+    <tongtien>0</tongtien>
+    <tiengiam>0</tiengiam>
+    <tienkhachtra>0</tienkhachtra>
+    <ngaymua>27-04-2019,03:34:03</ngaymua>
+  </lichsu>
+</LICHSU>

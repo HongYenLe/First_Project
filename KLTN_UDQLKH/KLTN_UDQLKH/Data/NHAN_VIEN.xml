@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NHANVIEN>
+  <nhanvien id="10000" idquyen="1">
+    <tennv>Nguyễn Khánh Duy</tennv>
+    <gioitinh>Nam</gioitinh>
+    <ngaysinh>02-2-1995</ngaysinh>
+    <cmnd>e</cmnd>
+    <diachi>e</diachi>
+    <dienthoai>454556</dienthoai>
+    <tendn>y</tendn>
+    <matkhau>121234</matkhau>
+  </nhanvien>
+</NHANVIEN>

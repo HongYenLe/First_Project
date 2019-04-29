@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Blog>
+  <Title>Hồng Yến Lê Blog</Title>
+  <Author>
+    <FirstName>Lê</FirstName>
+    <LastName>Hồng Yến</LastName>
+  </Author>
+  <Subjects>
+    <Subject>Lập trình web</Subject>
+    <Subject>Công nghệ phần mềm</Subject>
+    <Subject>Xử lý ảnh </Subject>
+  </Subjects>
+</Blog>  

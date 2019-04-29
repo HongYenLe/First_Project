@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7144C5A1-C54A-4CB7-9FF9-2001DDA514A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KLTN_UDQLKH</RootNamespace>
+    <AssemblyName>KLTN_UDQLKH</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Barcode, Version=2.0.0.20, Culture=neutral, PublicKeyToken=6dc438ab78a525b3, processorArchitecture=MSIL" />
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Charts.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=90f470f34c89ccaf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.Charts.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.28, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=14.1.0.28, Culture=neutral, PublicKeyToken=f90dc37c26666a67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=14.1.0.28, Culture=neutral, PublicKeyToken=26d81176cfa2b486, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.SuperGrid.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=14.1.0.28, Culture=neutral, PublicKeyToken=055db68f670cfeab, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar.14.1.0.28.downmienphi.com\Crack-downmienphi.com\DevComponents.TreeGX.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Nhom6_khanhDuy_hongYen_TimHieuXMLvaUDQuanlyKhachHang-20181225T132503Z-001\Nhom6_khanhDuy_hongYen_TimHieuXMLvaUDQuanlyKhachHang\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="OnBarcode.Barcode.BarcodeScanner, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7fbb339ece197812, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\[Sharecode.vn] Code doc ma vach Barcode Scanner C#\[Sharecode.vn] Code doc ma vach Barcode Scanner C#\net_barcode_reader_trial\net_barcode_reader_trial\OnBarcode.Barcode.BarcodeScanner.dll</HintPath>
+    </Reference>
+    <Reference Include="OnBarcode.Barcode.WinForms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=4da8d7f865f70e30, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\[Sharecode.vn] Code doc ma vach Barcode Scanner C#\[Sharecode.vn] Code doc ma vach Barcode Scanner C#\net_barcode_trial\net_barcode_trial\OnBarcode.Barcode.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing">
+      <HintPath>..\..\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\CT_HOADON_BLL.cs" />
+    <Compile Include="BLL\DoiQuaBLL.cs" />
+    <Compile Include="BLL\HOA_DON_BLL.cs" />
+    <Compile Include="BLL\KHACH_HANG_BLL.cs" />
+    <Compile Include="BLL\NangCapVaUuDai.cs" />
+    <Compile Include="BLL\NHAN_VIEN_BLL.cs" />
+    <Compile Include="BLL\NHA_CUNG_CAP_BLL.cs" />
+    <Compile Include="BLL\SAN_PHAM_BLL.cs" />
+    <Compile Include="BLL\ThongKe.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOI_MAT_KHAU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DOI_MAT_KHAU.Designer.cs">
+      <DependentUpon>DOI_MAT_KHAU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\CT_HOADON_DTO.cs" />
+    <Compile Include="DTO\HOA_DON_DTO.cs" />
+    <Compile Include="DTO\InHoaDon_DTO.cs" />
+    <Compile Include="DTO\KHACH_HANG_DTO.cs" />
+    <Compile Include="DTO\LOAIKH_DTO.cs" />
+    <Compile Include="DTO\LOAISP_DTO.cs" />
+    <Compile Include="DTO\NHAN_VIEN_DTO.cs" />
+    <Compile Include="DTO\NHA_CUNG_CAP_DTO.cs" />
+    <Compile Include="DTO\SAN_PHAM_DTO.cs" />
+    <Compile Include="DTO\TheKH.cs" />
+    <Compile Include="GuiMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiMail.Designer.cs">
+      <DependentUpon>GuiMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InHoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InHoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InTheKH.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InTheKH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InTheKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InTheKhachHang.Designer.cs">
+      <DependentUpon>InTheKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Khach_Hang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Khach_Hang.Designer.cs">
+      <DependentUpon>Khach_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LichSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSu.Designer.cs">
+      <DependentUpon>LichSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuaHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuaHang.Designer.cs">
+      <DependentUpon>MuaHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhaCungCap.Designer.cs">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SanPham.Designer.cs">
+      <DependentUpon>SanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongkeKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongkeKH.Designer.cs">
+      <DependentUpon>ThongkeKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xemhoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xemhoadon.Designer.cs">
+      <DependentUpon>Xemhoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemQT.Designer.cs">
+      <DependentUpon>XemQT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DOI_MAT_KHAU.resx">
+      <DependentUpon>DOI_MAT_KHAU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiMail.resx">
+      <DependentUpon>GuiMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InHoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InTheKH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InTheKH.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InTheKhachHang.resx">
+      <DependentUpon>InTheKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khach_Hang.resx">
+      <DependentUpon>Khach_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSu.resx">
+      <DependentUpon>LichSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuaHang.resx">
+      <DependentUpon>MuaHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhaCungCap.resx">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SanPham.resx">
+      <DependentUpon>SanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongkeKH.resx">
+      <DependentUpon>ThongkeKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xemhoadon.resx">
+      <DependentUpon>Xemhoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemQT.resx">
+      <DependentUpon>XemQT.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\CT_HOADON.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\HOA_DON.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\KHACH_HANG.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\KH_LOAIKH.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\LICH_SU.xml" />
+    <Content Include="Data\LOAI_KHACH_HANG.xml" />
+    <Content Include="Data\LOAI_SAN_PHAM.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\NHAN_VIEN.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\NHA_CUNG_CAP.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\QUATANG_UUDAI.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\QUYEN.xml" />
+    <Content Include="Data\SAN_PHAM.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\SP_LOAISP.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\thongkeloai.xml" />
+    <Content Include="Data\Blog.xml" />
+    <Content Include="KHACH_HANG.xml" />
+    <None Include="Resources\Containers-icon.png" />
+    <None Include="Resources\user-info-icon.png" />
+    <None Include="Resources\Administrator-icon.png" />
+    <None Include="Resources\chart-search-icon.png" />
+    <None Include="Resources\Office-Client-Female-Light-icon.png" />
+    <None Include="Resources\Office-Customer-Male-Light-icon.png" />
+    <None Include="Resources\Button-Refresh-icon.png" />
+    <None Include="Resources\reload-icon.png" />
+    <None Include="Resources\Refresh-icon %281%29.png" />
+    <None Include="Resources\Refresh-icon.png" />
+    <None Include="Resources\Devices-secure-card-icon.png" />
+    <None Include="Resources\Product-documentation-icon %281%29.png" />
+    <None Include="Resources\product-icon %281%29.png" />
+    <None Include="Resources\man-icon.png" />
+    <None Include="Resources\gift-icon %281%29.png" />
+    <None Include="Resources\Actions-view-history-icon.png" />
+    <None Include="Resources\Cart-icon %281%29.png" />
+    <None Include="Resources\Cart-icon.png" />
+    <None Include="Resources\Login-icon.png" />
+    <None Include="Resources\18.gif" />
+    <None Include="Resources\user-login-icon.png" />
+    <None Include="Resources\Eye-Blind-icon %281%29.png" />
+    <None Include="Resources\Eye-Visible-icon %281%29.png" />
+    <None Include="Resources\Eye-Visible-icon.png" />
+    <None Include="Resources\Logo_Co-opmart_2013.jpg" />
+    <None Include="Resources\Logo_Co-opmart_20121.jpg" />
+    <None Include="Resources\Logo_Co-opmart_2012.jpg" />
+    <None Include="Resources\Order-history-icon.png" />
+    <None Include="Resources\gift-icon.png" />
+    <None Include="Resources\Product-documentation-icon.png" />
+    <None Include="Resources\office-building-icon.png" />
+    <None Include="Resources\product-icon.png" />
+    <None Include="Resources\User-Administrator-Blue-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

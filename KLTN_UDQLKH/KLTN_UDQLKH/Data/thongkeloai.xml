@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThongKe>
+  <tkloai idloai="1">
+    <ten>Thân thiết</ten>
+    <soluong>0</soluong>
+  </tkloai>
+  <tkloai idloai="2">
+    <ten>Thành viên</ten>
+    <soluong>5</soluong>
+  </tkloai>
+  <tkloai idloai="3">
+    <ten>VIP</ten>
+    <soluong>1</soluong>
+  </tkloai>
+  <tkloai idloai="4">
+    <ten>Kim cương</ten>
+    <soluong>1</soluong>
+  </tkloai>
+</ThongKe>

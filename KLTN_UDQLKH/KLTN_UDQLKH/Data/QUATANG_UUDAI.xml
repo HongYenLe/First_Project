@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QUATANG_UUDAI>
+  <quatang_uudai id="3" idkh="100000">
+    <tenqt>Phiếu mua hàng</tenqt>
+    <noidung>Chúc mừng quý khách nhận được PMH 20000</noidung>
+    <soluong>2</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>0</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="2" idkh="100001">
+    <tenqt>Quà sinh nhật</tenqt>
+    <noidung>Happy Birthday</noidung>
+    <soluong>1</soluong>
+    <tientuongung>18-04-2019</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="3" idkh="10003">
+    <tenqt>Quà sinh nhật</tenqt>
+    <noidung>Happy Birthday</noidung>
+    <soluong>1</soluong>
+    <tientuongung>18-04-2019</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="4" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 100000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>100000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="5" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>3</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="6" idkh="100002">
+    <tenqt>Quà sinh nhật</tenqt>
+    <noidung>Happy Birthday</noidung>
+    <soluong>18-04-2019</soluong>
+    <tientuongung>18-10-2019</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="7" idkh="10004">
+    <tenqt>Quà sinh nhật</tenqt>
+    <noidung>Happy Birthday</noidung>
+    <soluong>10-10-2018</soluong>
+    <tientuongung>10-04-2019</tientuongung>
+    <trangthai>0</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="8" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>10</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="8" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 100000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>100000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="10" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>3</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="11" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>10</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="11" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 100000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>100000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="13" idkh="10004">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="14" idkh="100006">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>10</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="15" idkh="100006">
+    <tenqt>Quà sinh nhật</tenqt>
+    <noidung>Happy Birthday</noidung>
+    <soluong>25-04-2019</soluong>
+    <tientuongung>25-10-2019</tientuongung>
+    <trangthai>0</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="16" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 100000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>100000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="17" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>0</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="18" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 100000</noidung>
+    <soluong>1</soluong>
+    <tientuongung>100000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+  <quatang_uudai id="19" idkh="10003">
+    <tenqt>Phiếu chiết khấu</tenqt>
+    <noidung>Khách hàng đã nhận phiếu chiết khấu 20000</noidung>
+    <soluong>0</soluong>
+    <tientuongung>20000</tientuongung>
+    <trangthai>1</trangthai>
+  </quatang_uudai>
+</QUATANG_UUDAI>

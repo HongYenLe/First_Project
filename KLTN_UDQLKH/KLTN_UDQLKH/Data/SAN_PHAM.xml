@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SANPHAM>
+  <sanpham id="1" idloai="6" idncc="1">
+    <tensp>Sữa tươi vinamilk</tensp>
+    <dongia>6500</dongia>
+    <donvitinh>hộp</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>910</soluong>
+  </sanpham>
+  <sanpham id="2" idloai="1" idncc="4">
+    <tensp>Táo đỏ</tensp>
+    <dongia>65000</dongia>
+    <donvitinh>kg</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>955</soluong>
+  </sanpham>
+  <sanpham id="3" idloai="1" idncc="4">
+    <tensp>Nho ngón tay</tensp>
+    <dongia>200000</dongia>
+    <donvitinh>kg</donvitinh>
+    <giamgia>5</giamgia>
+    <soluong>904</soluong>
+  </sanpham>
+  <sanpham id="4" idloai="2" idncc="3">
+    <tensp>Bột giặt Ariel Doeeny đam mê/ khử mùi 5kg</tensp>
+    <dongia>238000</dongia>
+    <donvitinh>Túi</donvitinh>
+    <giamgia>5</giamgia>
+    <soluong>999</soluong>
+  </sanpham>
+  <sanpham id="5" idloai="7" idncc="3">
+    <tensp>Nồi cơm điện tử Sharp KS-COM180EVGY 1.8L</tensp>
+    <dongia>1290000</dongia>
+    <donvitinh>cái</donvitinh>
+    <giamgia>10</giamgia>
+    <soluong>984</soluong>
+  </sanpham>
+</SANPHAM>
